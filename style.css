@@ -161,6 +161,21 @@ main {
   margin-bottom: 10px;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
 footer{
   font-size: 10pt;
   font-style: italic;
