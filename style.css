@@ -104,6 +104,7 @@
 .nav-links li{
   position: relative;
 }
+
 .nav-links a{
   display: block;
   color: whitesmoke;
@@ -281,4 +282,37 @@ footer a {
 
 footer a:hover {
   color: blue;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size 16px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
 }
