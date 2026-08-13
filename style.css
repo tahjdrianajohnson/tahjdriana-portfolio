@@ -164,6 +164,8 @@ background-color: #66bb6A;
   padding: 8px;
   cursor:pointer;
   transition:.3s;
+  max-width: 100%;
+  height: auto;
 }
 
 .gallery{
@@ -245,6 +247,11 @@ body {
 
 h4 {
   text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 main {
